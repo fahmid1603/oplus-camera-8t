@@ -29,7 +29,7 @@ Full problem/fix history: [docs/Camera6_8T_Problems_Fixes.md](docs/Camera6_8T_Pr
 | --- | --- | --- |
 | `camera6.0-fix_cos.zip` | [toraidl/coloros_port](https://github.com/toraidl/coloros_port) `devices/common/` | unit.sdk jar inside: sha256 `874402e2b851d850a1fe3935a32a7595a03f4c99c03dbdabba7501544caca83b` |
 | `camera5.0-fix_odm.zip` | toraidl/coloros_port `devices/OnePlus8T/` | — |
-| `OplusCamera.apk` 7.006.125 | your own copy | sha1 `3c9ce83f…` (see app/) |
+| `OplusCamera.apk` 7.006.125 | your own copy | sha1 `3c9ce83f6f2a6095ae41d5d263e44bee130c0b0f` |
 | `odm_assets.zip` | this repo's **Releases** | checked by `odm/SHA256SUMS` |
 | smali / baksmali **3.0.9** | [github.com/JesusFreke/smali](https://github.com/JesusFreke/smali) releases → put `smali.jar`, `baksmali.jar` in `tools/` | other versions may not apply the patch |
 | Linux / WSL | `java`, `python3`, `unzip`, `zip`, `patch` | — |
@@ -39,7 +39,7 @@ Full problem/fix history: [docs/Camera6_8T_Problems_Fixes.md](docs/Camera6_8T_Pr
 ## Build
 
 ```bash
-git clone https://github.com/<you>/oplus-camera-8t && cd oplus-camera-8t
+git clone https://github.com/fahmid1603/oplus-camera-8t && cd oplus-camera-8t
 # put smali.jar + baksmali.jar (3.0.9) into tools/
 
 # 1. Camera Unit SDK jar (p8t51)

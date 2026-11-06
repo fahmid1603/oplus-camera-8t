@@ -1,0 +1,25 @@
+--- a/oplus_camera_aps_config
++++ b/oplus_camera_aps_config
+@@ -1783,6 +1783,22 @@
+     "Type": "Int32",
+     "Count": "1",
+     "Value": "1"
++},
++
++{
++    "VendorTag": "com.oplus.aps.autoPipeline",
++    "Type": "Int32",
++    "Count": "1",
++    "Value": "1",
++    "Comment": "8T port: use APS 5.1 auto capture pipelines"
++},
++
++{
++    "VendorTag": "com.ocs.camera.ipu.meishe.filter.support",
++    "Type": "Int32",
++    "Count": "1",
++    "Value": "1",
++    "Comment": "8T port: APS capture filter = Meishe (libmsnativefilter)"
+ }
+ 
+ ]

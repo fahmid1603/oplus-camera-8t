@@ -1,0 +1,29 @@
+oplus-camera-8t — OplusCamera 6 / 7 port for the OnePlus 8T (kebab)
+Copyright (C) 2026 Pedestrian (Md Fahmidur Rahman Priyo) — t.me/pedestrian1603
+
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License version 3 (see LICENSE).
+
+Additional terms under GPL-3.0 section 7(b) — preservation of author attribution:
+
+  1. Any distribution of this work or of a work based on it (including ROM
+     builds, flashable modules and patched APK/JAR files produced with these
+     scripts) must keep this NOTICE file and must credit
+     "Pedestrian (t.me/pedestrian1603)" in its release notes or changelog.
+
+  2. The in-app credit added by app/patch_cam7_credit.py (class
+     com.p8t.Port8tCredit, log tag "camera7_port_whoami_Pedestrian" and the
+     one-time "RememberTheName_PEDESTRIAN" pill) is an author attribution
+     notice in the sense of section 7(b) and must not be removed or altered
+     in distributed builds.
+
+Third-party material is NOT covered by this license and is NOT included in
+this repository:
+  - OplusCamera APKs, com.oplus.camera.unit.sdk(.adapter).jar, camera
+    configs and libraries are property of OPPO / OnePlus.
+  - camera5.0-fix_odm.zip and camera6.0-fix_cos.zip are distributed by
+    toraidl/coloros_port (Bruce Teng).
+  - smali / baksmali are by Ben Gruver (JesusFreke), BSD license.
+
+Thanks: Bruce Teng (toraidl/coloros_port) for the ColorOS port toolkit and
+camera zips this work builds on.

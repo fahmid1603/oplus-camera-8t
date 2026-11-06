@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- p8t: extra privileged permissions requested by camera 7 (merged with my_product file) -->
+<permissions>
+    <privapp-permissions package="com.oplus.camera">
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+        <permission name="android.permission.BLUETOOTH_CONNECT"/>
+        <permission name="android.permission.BLUETOOTH_SCAN"/>
+        <permission name="com.oplus.metis.factdata.permission.DATABASE"/>
+        <permission name="com.oplus.pantaconnect.permission.CONNECTIVITY"/>
+        <permission name="com.oplus.permission.safe.ACCOUNTS"/>
+        <permission name="com.oplus.permission.safe.BACKUP"/>
+        <permission name="com.oppo.permission.safe.ACCOUNTS"/>
+    </privapp-permissions>
+</permissions>

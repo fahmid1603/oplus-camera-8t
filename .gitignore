@@ -1,0 +1,5 @@
+tools/*.jar
+*.apk
+*.dex
+*.so
+*.img
